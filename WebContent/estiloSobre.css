@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.sobre{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.missao-visao{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.retorna{
+	display:block;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover{
+	color: blueviolet;
+}
+
+

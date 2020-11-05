@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sistema Academico</title>
+<link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+<div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776;
+                </button>
+                <a href="index.html">PÁGINA PRINCIPAL</a>
+            </div>
+            <div class="header-links">
+            	<a href="sobre.html">SOBRE A PAIDEIA  </a>
+            </div>
+        </header>
+        <aside class="menu-lateral">
+            <h3>Opções:</h3>
+            <button class="fecha-menu" onclick="closeMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="cadastroCurso.jsp">Cursos</a>
+                </li>
+                <li>
+                    <a href="cadastroProfessor.jsp">Professores</a>
+                </li>
+                <li>
+                    <a href="cadastroDisciplina.jsp">Disciplinas</a>
+                </li>
+                <li>
+                    <a href="cadastroAluno.jsp">Alunos</a>
+                </li>
+                <li>
+                    <a href="cadastroTurma.jsp">Turmas</a>
+                </li>
+                <li>
+            		<a href = "paginaPrincipalRelatorios.jsp">Relatórios</a>
+            	</li>
+            </ul>        
+        </aside>
+        </div>
+		<div>
+            <footer class="footer">
+               (παιδεία)Todos os direitos reservados
+            </footer>
+        </div>
+        <script src="script.js"></script>
+
+</body>
+</html>
